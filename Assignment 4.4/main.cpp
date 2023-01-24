@@ -22,7 +22,7 @@ int sumSquares(int n)
     else
         return (n*n)+sumSquares(n-1);
 }
-//integer array along with its length, the function returns true if the array contains 0, and returns false otherwise. Using following function header:
+//integer array along with it length, the function returns true if the array contains 0, and returns false otherwise. Using following function header:
 bool containZero(int a[], int length)
 {
     if (length==0)
